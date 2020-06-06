@@ -1,0 +1,237 @@
+body{
+    padding: 30px; 
+}
+.logo{
+    text-align: center;
+}
+.navbar{
+    background-color: white !important;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e8b923 !important;
+    
+}
+.form-control{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #e8b923 !important;
+    border-color: #e8b923;
+    background-color: white;
+}
+.nav-link:hover{
+    color: #ddb928 !important;
+    text-shadow: 2px 2px 4px #ddb928;
+}
+/* .form-control:active{
+    box-shadow:5px 5px 3px #bc9c22 !important;
+} */
+.btn:hover{
+    background-color:#e8b923;
+    color: white !important;
+    border-color: #e8b923;
+    
+}
+
+.mymain{
+    color: #e8b923;
+    padding-right: 0px !important;
+    background-color: white;
+    justify-content: space-around;
+    text-shadow: 2px 2px 4px #ddb928;
+    margin-top: 2px;
+}
+.mainimg{
+    /* background-color: tomato; */
+    margin-right: 0px;
+    padding-right: 0px !important;
+    text-align: center;
+}
+.maintxt{
+    /* padding-left: 100px; */
+    text-align: center;
+}
+hr{
+    border: 1px solid #e8b923;
+    margin:20px 100px 20px 100px;
+}
+.maintxt h1,.maintxt p{
+    text-shadow: 2px 2px 4px #e8b923;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.maintxt h2{
+    font-family: 'Lobster', cursive;
+    
+}
+.hline{
+    border: 1px solid #e8b923;
+    line-height: 1;
+    width: 100%;
+    margin: 0px;
+}
+.myfooter{
+    font-family: 'Montserrat', sans-serif;
+    color: #ddb928;
+    line-height: .65;
+    font-size: 11px;
+    margin-top: 20px;
+}
+.aboutus{
+    font-family: 'Montserrat', sans-serif;
+    color: #ddb928 !important;
+}
+.fa-facebook,.fa-twitter{
+    color: white;
+    padding: 7px 8px 7px 8px;
+    background-color: #ddb928;
+    border-radius: 80px;
+}
+.fa-facebook{
+    padding: 7px 10px 7px 10px;
+}
+.fa-instagram{
+    color: white!important;
+    padding: 7px 8px 7px 8px;
+    background-color: #ddb928 !important;
+    border-radius: 80px;
+}
+
+.mymainhead h2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color:#e8b923;
+    text-shadow: 2px 2px 3px #d4b32e;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+span{
+    padding-left: 10%;
+}
+.span2{
+    padding-left: 32%;
+}
+.myrow{
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 8%;
+}
+.card-title{
+    color: #e8b923;
+    text-shadow: 2px 2px 3px #d4b32e;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.row1{
+    justify-content: space-around;
+}
+/* .cd{
+    margin: 50px 40px 50px 40px;
+} */
+.reg{
+    margin-bottom: 100px;
+}
+#dropdownMenu2:hover,#dropdownMenu2:active,#dropdownMenu2{
+    box-shadow: none;
+    background-color:#e8b923 !important;
+    color: white !important;
+    border-color: #e8b923 !important;
+    
+}
+.dropdown-item:active{
+    background-color: honeydew !important;
+    border: none;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+@media (max-width:1050px){
+    .maintxt h1,.maintxt hr{
+        line-height: 0;
+        visibility: hidden;
+    }
+}
+
+
+/* Styling of About Page */
+.about{
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about h2{
+        color:#e8b923 ;
+        /* font-size: 20%; */
+        font-family: 'Merriweather', serif;
+        text-shadow: 1px 1px 4px #bc9c22;
+    }
+.about p{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+}    
+
+
+/* Styling for Register PAge */
+.myform{
+    border: 1px solid gainsboro;
+    padding: 20px 20px 20px 20px;
+    margin: 5% 35% 5% 35%;
+}
+h5{
+    color: #e8b923;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-control::-webkit-input-placeholder,small,.form-check-label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+.order label{ 
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: capitalize;
+}
+.btn{
+        box-shadow: none;
+        background-color:#e8b923 !important;
+        color: white !important;
+        border-color: #e8b923 !important;
+        
+    }
+.myheading{
+    color:#e8b923;
+    text-shadow: 2px 2px 3px #d4b32e;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+.message{
+    font-family: 'Montserrat', sans-serif !important;
+    /* font-size: 11px; */
+    padding-bottom: 100px;
+}
+@media (max-width:1000px){
+    .myform{
+        margin: 5% 25% 5% 25%;
+    }
+}
+@media (max-width:700px){
+    .myform{
+        margin: 5% 15% 5% 15%;
+    }
+}
+
+
+
+
+
