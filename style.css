@@ -227,7 +227,12 @@ h5{
 }
 @media (max-width:700px){
     .myform{
-        margin: 5% 15% 5% 15%;
+        margin: 5% 10% 5% 10%;
+    }
+}
+@media (max-width:700px){
+    body{
+        padding:5px;
     }
 }
 
